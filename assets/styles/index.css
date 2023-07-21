@@ -6,3 +6,55 @@
 :root {
   font-size: 62.5%;
 }
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.5;
+  background-color: #f1f1f1;
+  color: #4d4e53;
+  font-size: 1.5rem;
+}
+
+/* SIDE NAVIGATION BAR*/
+
+.side-nav {
+  position: fixed;
+  height: 100%;
+  width: 30rem;
+  border-right: solid #00161666;
+}
+
+header {
+  font-size: 3rem;
+  color: #000;
+}
+
+.side-nav-header {
+  text-align: center;
+  margin: 1.5rem;
+  padding-bottom: 1rem;
+}
+
+.side-nav ul li {
+  padding: 1rem;
+  border-bottom: .1rem solid #000;
+  
+}
+
+.side-nav ul li:first-child {
+  border-top: .1rem solid #000;
+}
+
+.side-nav a {
+  text-decoration: none;
+  color: #4d4e53;
+  margin-left: 2rem;
+  display: block;
+}
+
+/* MAIN PAGE */
+
+.main-page {
+  position: absolute;
+  margin-left: 35rem;
+}
