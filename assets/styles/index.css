@@ -15,6 +15,33 @@ body {
   font-size: 1.5rem;
 }
 
+header {
+  font-size: 3rem;
+  color: #000;
+}
+
+article {
+  margin: 1.5rem;
+}
+
+article p,
+article li {
+  margin-bottom: 2rem;
+}
+
+article li,
+code {
+  margin-left: 6rem;
+}
+
+code {
+  display: block;
+  margin: 1rem;
+  padding: 1.5rem;
+  background-color: #f7f7f7;
+  position: relative;
+}
+
 /* SIDE NAVIGATION BAR */
 
 .side-nav {
@@ -22,11 +49,6 @@ body {
   height: 100%;
   width: 30rem;
   border-right: solid #00161666;
-}
-
-header {
-  font-size: 3rem;
-  color: #000;
 }
 
 .side-nav-header {
@@ -68,22 +90,3 @@ header {
   margin: 2rem;
 }
 
-article {
-  margin: 1.5rem;
-}
-
-article p, article li{
-  margin-bottom: 2rem;
-}
-
-article li, code {
-  margin-left: 6rem;
-}
-
-code {
-  display: block;
-  margin: 1rem;
-  padding: 1.5rem;
-  background-color: #f7f7f7;
-  position: relative;
-}
