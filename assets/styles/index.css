@@ -3,6 +3,7 @@
   margin: 0;
   box-sizing: border-box;
 }
+
 :root {
   font-size: 62.5%;
 }
@@ -15,7 +16,7 @@ body {
   font-size: 1.5rem;
 }
 
-/* SIDE NAVIGATION BAR*/
+/* SIDE NAVIGATION BAR */
 
 .side-nav {
   position: fixed;
@@ -37,12 +38,11 @@ header {
 
 .side-nav ul li {
   padding: 1rem;
-  border-bottom: .1rem solid #000;
-  
+  border-bottom: 0.1rem solid #000;
 }
 
 .side-nav ul li:first-child {
-  border-top: .1rem solid #000;
+  border-top: 0.1rem solid #000;
 }
 
 .side-nav a {
@@ -56,5 +56,6 @@ header {
 
 .main-page {
   position: absolute;
-  margin-left: 35rem;
+  margin-left: 33rem;
+  padding: 3rem;
 }
