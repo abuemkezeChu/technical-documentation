@@ -8,6 +8,8 @@
   font-size: 62.5%;
 }
 
+/* GENERAL SELECTORS */
+
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5;
@@ -39,7 +41,9 @@ code {
   margin: 1rem;
   padding: 1.5rem;
   background-color: #f7f7f7;
-  position: relative;
+  font-size: 1.2rem;
+  border-radius: 0.5rem;
+  line-height: 2;
 }
 
 /* SIDE NAVIGATION BAR */
@@ -60,6 +64,7 @@ code {
 .side-nav ul li {
   padding: 1rem;
   border-bottom: 0.1rem solid #000;
+  position: relative;
 }
 
 .side-nav ul li:first-child {
@@ -89,4 +94,3 @@ code {
 .main-section {
   margin: 2rem;
 }
-
